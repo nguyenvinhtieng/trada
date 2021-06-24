@@ -627,7 +627,8 @@ background: #555;
         width: 100%;
     }
     .tv-contact {
-        font-size: 40px;
+        font-size: 20px;
+        margin-top: 20px;
         position: absolute;
         bottom: -50%;
         margin-bottom: 20px;
@@ -636,10 +637,15 @@ background: #555;
         background-color: #cda25d;
         border: none;
     }
-    .tv-contact > button {
-        width: 100%;
-        padding: 3px 200px;
+    .tv-contact > p{
+        display: flex;
+        flex-direction: column;
+    }
+    .tv-contact > p > button {
+        width: 50%;
         margin-bottom: 30px;
+        font-size:15px;
+        transform: translateX(50%)
     }
     #introduce-company{
         margin-top: 80px;
