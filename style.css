@@ -655,6 +655,7 @@ background: #555;
         top: 25%;
         left: -5%;
         opacity: 0.5;
+        display: none;
     }
     
     .img-container::after {
@@ -668,6 +669,8 @@ background: #555;
         top: 30%;
         right: -25%;
         opacity: 0.5;
+        overflow: hidden;
+        display: none;
     }
     
     #introduce-company>.img-container>img {
@@ -740,8 +743,10 @@ background: #555;
         font-size: 50px;
     }
     #introduce-company {
-        padding: 80px 20px 0px 20px;
-        height: 100vh;
-        display: flex;
+        padding: 80px 30px 0px 0px;
+        margin: 0;
+    }
+    #struct .text {
+        padding: 5px 10px;
     }
 }
